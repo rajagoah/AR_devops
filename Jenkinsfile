@@ -16,7 +16,7 @@ pipeline {
 
         stage('Present working directory?') {
           steps {
-            pwd()
+            bat(script: 'echo %cd%', returnStatus: true, returnStdout: true)
           }
         }
 
