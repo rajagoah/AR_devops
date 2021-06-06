@@ -1,0 +1,1 @@
+"C:\Users\Aakarsh Yoga 7i\AppData\Local\Programs\Python\Python39\python.exe" "C:\Users\Aakarsh Yoga 7i\Personal Documents\01_Git_repositories\AR_devops\hello.py"
