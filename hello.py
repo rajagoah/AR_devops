@@ -1,7 +1,4 @@
-print(" Hello AR!")
-
-print(" Hello again AR!!")
-
-print(" Hello again AR v1.2!!")
-
-print(" Hello again AR v1.3!!")
+if 1==1:
+    print(" Hello world!")
+else:
+    print(" No hello to the world")
