@@ -23,5 +23,13 @@ pipeline {
       }
     }
 
+    stage('Upload to s3') {
+      steps {
+        echo 'Uploading folder to S3'
+        awsIdentity()
+        s3Upload(bucket: 'jenkins-github-s3', acl: 'Private', file: 'C:\\Users\\Aakarsh Yoga 7i\\Personal Documents\\01_Git_repositories\\AR_devops', workingDir: 'C:\\Users\\Aakarsh Yoga 7i\\Personal Documents\\01_Git_repositories\\AR_devops')
+      }
+    }
+
   }
 }
